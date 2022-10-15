@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #83A7A5;
+}
+header{
+    background-image: url(../images/banner.jpg);
+    position: relative;
+}
+
+.overlay{
+    background-color: #2e7878c9;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tel-number{
+    color: #ffffffa6;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 2px;
+    border-left: 1px solid #fff;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.navbar .container{
+    border-bottom: 1px solid #ffffffa6;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 69%) !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(255 255 255) !important;
+}
+header .row{
+    align-items: center;
+    min-height: 600px;
+}
+.banner{}
+.banner h1{
+    font-size: 45px;
+    color: #fff;
+}
+.banner p{
+    color: #fff;
+}
+.btn-custom{
+    background: #6fb048;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.btn-custom:hover{
+    background: #6e8383;
+    color: #fff;
+} 
+
+.btn-highlight{
+    background: #6e8383 !important;
+    color: #fff !important;
+    margin-left: 10px !important;
+}
+
+.btn-highlight:hover{
+    background: #6fb048 !important;
+    color: #fff;
+}
+
+.features-section{
+    padding: 50px 0;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading h2{
+    color: #2e7878;
+    font-weight: 600;
+    margin: 0;
+}
+.heading span{
+    background: #6fb048;
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.heading p{}
+
+.feature{
+    padding: 25px 0;
+}
+.feature h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #298f8f;
+    text-transform: capitalize;
+}
+.feature img{
+    margin-bottom: 10px;
+}
+.feature p{}
+
+/*** responsive-section ***/
+.responsive-section{
+    padding: 80px 0;
+    position: relative;
+    background-color: #eff1ec;
+}
+
+.responsive-section > img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.responsive-content{
+    padding: 105px 0;
+}
+.responsive-content h3{
+    font-size: 32px;
+    color: #0f5f5c;
+}
+.responsive-content p{
+    font-size: 14px;
+}
+.responsive-content ul{}
+.responsive-content li{
+    font-size: 14px;
+    color: #8cadaa;
+    margin: 10px 0;
+}
+/*** responsive-section ***/
+
+/*feedback-section*/
+ .feedback-section{}
+ .feedback-content{
+    margin: 69px 0;
+}
+ .feedback-content p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+ .feedback-content ul{}
+ .feedback-content ul li{
+    font-size: 14px;
+}
+ .feedback-section img{
+    margin: 25px 0;
+ }
+
+/*feedback-section*/
+
+/*details-section*/
+.details-section{
+    background-color: aliceblue;
+}
+.details-content{
+}
+.details-content h2{
+    font-size: 32px;
+}
+.details-content p{
+    font-size: 16px;
+}
+.details-section img{}
+
+/*details-section*/
+
+/** pricing table **/
+.pricing-table-section{
+    padding: 120px 0;
+}
+.pricing-table{
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #c1d3d2 !important;
+    border-bottom: 1px solid #c1d3d2 !important;
+    text-align: center;
+}
+.pricing-table-section .pricing-table:first-child{
+    border: 1px solid #c1d3d2;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.pricing-table-section .pricing-table:last-child{
+    border: 1px solid #c1d3d2;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.pricing-table ul{}
+.pricing-table ul li{
+    padding: 10px 0;
+}
+.pricing-table li.title{}
+.pricing-table li.title h4{
+    font-size: 15px;
+    font-weight: 600;
+    color: #6fb048;
+    text-transform: uppercase;
+}
+.pricing-table li.price h1{
+    font-size: 65px;
+    color: #0f5f5c;
+    font-weight: 800;
+    line-height: 1;
+    margin: 10px 0;
+}
+.pricing-table li.price h1 strong{
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+.pricing-table li button{}
+.pricing-table li button:hover{}
+
+/** pricing table **/
+
+/*** plan section ***/
+.plan-section{
+    justify-content: center;
+}
+.total-plans{
+}
+.plan-details{}
+.plan-details ul{}
+.plan-details ul li{
+    padding: 5px 0px;
+}
+.plan-details ul li img{}
+/*** support section ***/
+.support-section{
+    padding: 50px 0;
+}
+.support{
+    justify-content: center;
+    text-align: center;
+}
+.support h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #6fb048;
+    margin: 5px;
+}
+.support span{
+    background: #6fb048;
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.support p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #83a7a5;
+}
+.support h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #83a7a5;
+}
+
+/*** support section ***/
+
+/*** download section ***/
+.download-section{
+    background-image: url(../images/cta.png);
+    padding: 30px 0;
+    margin: 30px 0;
+}
+
+.download{}
+.download h2{
+    font-size: 28px;
+    font-weight: 400;
+    color: #0f5f5c;
+}
+.download p{
+    font-size: 15px;
+    color: #83a7a5;
+}
+/*** download section ***/
